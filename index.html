@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weitzel Web Designs</title>
+  <link rel="shortcut icon" href="favicon2.ico"/>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<div id="bodyWrapper">
+	  <!-- Header and Nav -->
+
+  <div class="row">
+    <div class="large-3 columns">
+     <a href="index.html"><h1><img src="img/logo.png"></h1></a>
+    </div>
+    <div class="large-9 columns">
+      <ul class="button-group right">
+        <!-- <li><a href="contact.html" class="button">Contact Us</a></li> --> 
+        <li><a href="portfolio.html" class="button">Portfolio</a></li> 
+      </ul>
+    </div>
+  </div>
+
+  <!-- End Header and Nav -->
+
+
+  <!-- First Band (Image) -->
+
+  <div class="row">
+    <div class="large-12 columns">
+      <img class="hasShadow" src="img/mainStockPhoto.jpg">
+
+      <hr>
+    </div>
+  </div>
+  <!-- Second Band (Image Left with Text) -->
+
+  <div class="row">
+    <div class="large-4 columns">
+      <img class="hasShadow" src="img/smallStockPhoto3.jpg">
+    </div>
+    <div class="large-8 columns">
+      <h2>Welcome to Weitzel Web Designs</h2>
+      <div class="row">
+        <div class="large-6 columns">
+          <h4>We Currently Offer</h4>
+          <ul>
+          	<li>From Scratch Site Development</li>
+          	<li>Template Based Site Development</li>
+          	<li>HTML 5: The most current standard in web development</li>
+          	<li>Responsive and Adaptive Design for Smart Phones and Tablets.</li>
+          	<li>Javascript: The ability to make your website respond to the user</li>
+          	<li>JQuery: A javascript library that makes your site rich and dynamic.</li>
+          </ul>
+        </div>
+        <div class="large-6 columns">
+        	<h4>Coming a Bit Later!</h4>
+          <p>Once we're up and running we plan to expand our services to include</p>
+          <ul>
+          	<li>Photography Services</li>
+          	<li>Graphic Design</li>
+          	<li>Back End Development:</li>
+          	<ul>
+          		<li>User Login</li>
+          		<li>Forums</li>
+          		<li>Web 2.0 Content (Comments, User Created Content, etc.)</li>
+          	</ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Third Band (Image Right with Text) -->
+
+  <div class="row">
+    <div class="large-8 columns">
+      <h4>The Bottom Line</h4>
+
+      <p>I'll work with you to identify the needs of you and your user. Using that information we will build a site
+      	that meets those needs. Your site will be stylish and functional, while still being easy to use. </p>
+
+      <a href="#" class="radius button right" data-reveal-id="ContactModal">Contact Us</a>
+      
+
+    </div>
+    <div class="large-4 columns">
+      <img class="hasShadow" src="img/smallStockPhoto2.jpg">
+    </div>
+  </div>
+  
+<!-- Contact Modal -->
+  <div id="ContactModal" class="reveal-modal deepShadow" data-reveal>
+          <h5 class="title"><a href="#panel1">Contact Weitzel Web Designs</a></h5>
+          <div class="content" data-slug="panel1">
+            <form method="post" name="contact_form" action="contact-form-handler.php">
+              <div class="row collapse">
+                <div class="large-1 columns">
+                  <label class="inline">Your Name</label> 
+                </div>
+                <div class="large-1 columns">
+                	<img class="error" src="img/closeBtn.gif">
+                	<img class="valid" src="img/greencheckmark.gif" />
+                </div>
+                <div class="large-10 columns">
+                  <input class="requiredText" id="name" type="text" name="name" placeholder="Jane Smith">
+                </div>
+              </div>
+              <div class="row collapse">
+                <div class="large-1 columns">
+                  <label class="inline">Your Email</label>
+                </div>
+                 <div class="large-1 columns">
+                	<img class="error" src="img/closeBtn.gif">
+                	<img class="valid" src="img/greencheckmark.gif" />
+                </div>
+                <div class="large-10 columns">
+                  <input class="required" id="email" type="text" name="email" placeholder="jane@smithco.com">
+                </div>
+              </div>
+              <div class="row collapse">
+	              <div class="large-1 columns">
+	              	<label class="inline">What's up?</label>
+	              </div>
+	              <div class="large-1 columns">
+                	<img class="error" src="img/closeBtn.gif">
+                	<img class="valid" src="img/greencheckmark.gif" />
+                </div>
+	              <div class="large-10 columns">
+	              	<textarea class="requiredText" id="message" rows="4" name="message" placeholder="Your message"></textarea>
+	              </div>
+              </div>
+              
+              <button type="submit" class="radius button contactSubmit">Submit</button>
+            </form>
+      </div>
+</div>
+
+<!-- End Contact Modal -->
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>&copy; Weitzel Web Designs</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+           <!-- <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+  <script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+<script type="text/javascript" src="js/contactValidation.js"></script>	
+</body>
+</html>

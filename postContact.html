@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weitzel Web Designs</title>
+  <link rel="shortcut icon" href="favicon2.ico"/>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+	<div id="bodyWrapper">
+			  <!-- Header and Nav -->
+
+  <div class="row">
+    <div class="large-3 columns">
+     <a href="index.html"><h1><img src="img/logo.png"></h1></a>
+    </div>
+    <div class="large-9 columns">
+      <ul class="button-group right">
+        <!-- <li><a href="contact.html" class="button">Contact Us</a></li> --> 
+        <li><a href="index.html" class="button">Home</a></li>
+        <li><a href="portfolio.html" class="button">Portfolio</a></li> 
+      </ul>
+    </div>
+  </div>
+
+  <!-- End Header and Nav -->
+  
+		<div id="thankYouMessage" class="row">
+			<h1>Thank you for your email. Even now my computer is beeping and my phone is buzzing. I'll get back to you as soon
+				as I can!</h1>
+				
+			<p>In about 10 seconds you will be redirected back to my homepage.</p>
+		</div>
+		
+					<form name="redirect">
+						<div align="center">
+							<h4>You will be redirected to the home page in</h4>
+							<form>
+								<input style="text-align: center; font-size:2em; margin-bottom:0;" type="text"  name="redirect2">
+							</form>
+							<h4>seconds</h4>
+						</div>
+							
+						<script>
+							
+							
+							/*
+							Count down then redirect script
+							By JavaScript Kit (http://javascriptkit.com)
+							Over 400+ free scripts here!
+							*/
+							
+							//change below target URL to your own
+							var targetURL="index.html";
+							//change the second to start counting down from
+							var countdownfrom=10;
+							
+							
+							var currentsecond=document.redirect.redirect2.value=countdownfrom+1;
+							function countredirect(){
+							if (currentsecond!=1){
+							currentsecond-=1;
+							document.redirect.redirect2.value=currentsecond;
+							}
+							else{
+							window.location=targetURL;
+							return;
+							}
+							setTimeout("countredirect()",1000);
+							}
+							
+							countredirect();
+							//-->
+							</script>
+						
+					</form>
+					
+	</div>
+
+
+
+	
+</body>
+</html>
