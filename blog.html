@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weitzel Web Designs</title>
+  <link rel="shortcut icon" href="favicon2.ico"/>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<div id="bodyWrapper">
+  <div class="row">
+    <div class="large-3 columns">
+     <a href="index.html"><h1><img src="img/logo.png"></h1></a>
+    </div>
+    <div class="large-9 columns">
+      <ul class="button-group right">
+        <!-- <li><a href="contact.html" class="button">Contact Us</a></li> --> 
+        <li><a href="index.html" class="button">Home</a></li>
+        <li><a href="portfolio.html" class="button">Portfolio</a></li> 
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- End Header and Nav -->
+  
+  <!-- Main Page Content and Sidebar -->
+ 
+  <div class="row">
+ 
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+ 
+      <article>
+ 
+        <h3><a href="#">Hello World!</a></h3>
+        <h6>Written by <a href="#">Norman Weitzel</a> on December 13, 2013.</h6>
+ 
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Hello World! My name is Norm, and I'm delighted and surprised that you've found my blog. As this is my first post I'm going to use it to
+            	lay out my hopes and dreams for this site and business. </p>
+            	
+            <p>Web design and development is a new skill for me, and it was not a straight path that brought me here. Originally I had an idea for an 
+            	Android app that I wanted to build. After doing some research I discovered that despite looking relatively simple mobile apps are quite 
+            	complicated to build, especially for someone that has minimal programming experience. Prior to my current journey my only experience was
+            	one semester of Pascal in high school!</p>
+          </div>
+            <div class="large-6 columns">
+            <img src="img/helloWorld.jpg" />
+          </div> 
+          </div>
+          <div class="row">
+          	<div class="large-12 columns">
+            <p>So I began learning. I looked all over the web, read articles, watched tutorials, and realized that I was in over my head. While I remembered
+            	some of the basic programming principals from my high school days I had a lot to learn to get my feet under me. I went over to 
+            	<a href="http://www.codecademy.com/">Codecademy</a> and started learning.</p>
+            <p>After getting the basics down there I branched out and found many more resources to learn from. I started building simple web pages
+            	and getting comfortable with all the different components. Somewhere along the way I realized that instead of trying to come up with
+            	fake sites to make to build my skills, I should try some real world applications.</p>
+            <p>So I tried recreating web sites of places and business I knew. That naturally led to me adding my own touches and improvements, and
+            	 eventually led to me completely redesigning several sites.</p>
+            <p>And that's how Weitzel Web Designs was born. I realized that I was doing work that was (in my opinion) better. After finding out how
+            	much some folks were paying for what seemed to be relatively simple sites blew me away. I decided I could do better work for less money</p>
+            <p>As far as the business goes, that's where we're at. I haven't signed any paying customers yet, but I hope to soon. But there's more to life
+            	than making money. I've realized that I really enjoy web design and development! So I'm still honing my skills, writing as much code as 
+            	I can, and learning as much as I can. The Android app may still be in my future, but I've got some other shiney new objects to play with
+            	for now.</p>
+            <p>My current project is learning a programming language called Ruby, and more specifically how to use a framework called Ruby on Rails to develop
+            	really amazing web applications. "What's the difference between an application and a web site"? I can hear you asking. Well the answer is simple,
+            	a static site does not change. This site is an example. If I want to make any changes to what YOU see I have to go into the source code, make
+            	the change, save it, then upload it to the web server. What applications do is make the server do all the work. With a web application you can
+            	make changes, add content, change content, etc. all from the browser. This is how comment systems, shopping cart / ecommerce, and big sites like 
+            	Facebook and Twitter work.</p>            
+            <p>Most (if not all) coders are familiar with the "hello, world" program. When learning a new programming language printing some text to the
+            	screen is typically an easy and often repeated command, so it is a logical place for my blog begin. And what else is a blog besides text printed
+            	 to a
+            	screen?</p>
+          </div>
+          </div>
+      </article>
+   </div> 
+     
+    <!-- End Main Content -->
+ 
+ 
+    <!-- Sidebar -->
+ 
+    <aside class="large-3 columns">
+
+ 
+      <div class="panel">
+        <h5>Shour Outs!</h5>
+        <p><a href="http://www.codecademy.com">Codecademy</a></p>
+        <p>Great site to get started with HTML, CSS, Javascript, PHP, and more!</p>
+        <br>
+        <p><a href="www.teamtreehouse.com">Team Treehouse</a></p>
+        <P>This site requires a subscription, but it's got some great lessons and tutorials for web
+        	design and development. These are much more in depth than Codecademy. They've got very active instructors,
+        	as well as a forum that is very useful. It's been my main source for learning Rails</P>
+      </div>
+ 
+    </aside> 
+    <!-- End Sidebar -->
+  </div>
+ 
+  <!-- End Main Content and Sidebar -->
+</div>
+
+<!-- Contact Modal -->
+  <div id="ContactModal" class="reveal-modal deepShadow" data-reveal>
+          <h5 class="title"><a href="#panel1">Contact Weitzel Web Designs</a></h5>
+          <div class="content" data-slug="panel1">
+            <form method="post" name="contact_form" action="contact-form-handler.php">
+              <div class="row collapse">
+                <div class="large-1 columns">
+                  <label class="inline">Your Name</label> 
+                </div>
+                <div class="large-1 columns">
+                	<img class="error" src="img/closeBtn.gif">
+                	<img class="valid" src="img/greencheckmark.gif" />
+                </div>
+                <div class="large-10 columns">
+                  <input class="requiredText" id="name" type="text" name="name" placeholder="Jane Smith">
+                </div>
+              </div>
+              <div class="row collapse">
+                <div class="large-1 columns">
+                  <label class="inline">Your Email</label>
+                </div>
+                 <div class="large-1 columns">
+                	<img class="error" src="img/closeBtn.gif">
+                	<img class="valid" src="img/greencheckmark.gif" />
+                </div>
+                <div class="large-10 columns">
+                  <input class="required" id="email" type="text" name="email" placeholder="jane@smithco.com">
+                </div>
+              </div>
+              <div class="row collapse">
+	              <div class="large-1 columns">
+	              	<label class="inline">What's up?</label>
+	              </div>
+	              <div class="large-1 columns">
+                	<img class="error" src="img/closeBtn.gif">
+                	<img class="valid" src="img/greencheckmark.gif" />
+                </div>
+	              <div class="large-10 columns">
+	              	<textarea class="requiredText" id="message" rows="4" name="message" placeholder="Your message"></textarea>
+	              </div>
+              </div>
+              
+              <button type="submit" class="radius button contactSubmit">Submit</button>
+            </form>
+      </div>
+</div>
+
+<!-- End Contact Modal -->
+
+
+
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>&copy; Weitzel Web Designs</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="#" id="footerContact" data-reveal-id="ContactModal">Contact Us</a></li> 
+          </ul> 
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>');
+  </script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+<script type="text/javascript" src="js/contactValidation.js"></script>	
+</body>
+</html>

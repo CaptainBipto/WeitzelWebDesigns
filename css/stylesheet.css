@@ -18,6 +18,14 @@ body{
 	border: .3em solid black;
 }
 
+#footerContact{
+	color: black;
+	text-decoration:underline;
+}
+
+#footerContact:hover{
+	color: gray;
+}
 .hasShadow {
 	-webkit-box-shadow: .5em .5em .3em rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    .5em .5em .3em rgba(50, 50, 50, 0.75);
