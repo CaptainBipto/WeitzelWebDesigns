@@ -7,6 +7,24 @@ body{
 	background: gray !important;
 }
 
+.author {
+	color: #2ba6cb
+}
+
+#firstBlogPost {
+	margin-top: 0;
+	margin-bottom: 6em;
+}
+
+.blogPost {
+	margin: 6em 0;
+}
+
+ul li {
+	font-size: 1.3em;
+	margin-bottom: .75em;
+}
+
 .caption {
 	text-align: center;
 }
