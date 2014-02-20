@@ -7,6 +7,13 @@ body{
 	background: gray !important;
 }
 
+blockquote {
+	width: 100%;
+	border: .1em gray solid;
+	background-color: #E0E0EB;
+	padding: 1em;
+}
+
 .author {
 	color: #2ba6cb
 }
